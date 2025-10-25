@@ -12,8 +12,10 @@ def initials_generator(personsName):
 
     return personsInitials.strip()
 
-personsName = input('Enter the users first, middle, and last name')
+# Example usage
+if __name__=="__main__":
+    personsName = input('Enter the users first, middle, and last name')
 
-initials = initials_generator(personsName)
+    initials = initials_generator(personsName)
 
-print(initials)
+    print(initials)
