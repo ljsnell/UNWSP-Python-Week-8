@@ -15,9 +15,9 @@ def word_separator(sentence):
     return new_sentence.strip()
 
 # Example usage
+if __name__=="__main__":
+    sentence = "StopAndSmellTheRoses"
 
-sentence = "StopAndSmellTheRoses"
+    new_sentence = word_separator(sentence)
 
-new_sentence = word_separator(sentence)
-
-print(new_sentence)
+    print(new_sentence)
